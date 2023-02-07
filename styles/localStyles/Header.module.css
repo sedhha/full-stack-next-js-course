@@ -1,0 +1,27 @@
+.LogoWithTitle {
+	display: flex;
+	align-items: center;
+}
+
+.LogoHeader {
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+
+.LogoWithTitle > img {
+	height: 32px;
+	aspect-ratio: 1;
+}
+
+.NavigationSections {
+	display: flex;
+	align-items: center;
+	flex: auto;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.Header {
+	display: flex;
+	align-items: center;
+}
