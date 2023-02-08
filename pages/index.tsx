@@ -15,6 +15,17 @@ export default function Home() {
 				<h2>About</h2>
 				<h2>Work Experience</h2>
 				<h2>Blog</h2>
+				<div className={classes.More}>
+					<h2>More</h2>
+					<div className={classes.DropDownItems}>
+						<h3>Contact</h3>
+						<h3>Project</h3>
+						<h3>Awards</h3>
+						<h3>Videos</h3>
+						<h3>Testimonials</h3>
+						<h3>Tech Stack</h3>
+					</div>
+				</div>
 			</div>
 		</header>
 	);

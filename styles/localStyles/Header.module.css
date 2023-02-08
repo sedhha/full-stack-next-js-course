@@ -25,3 +25,27 @@
 	display: flex;
 	align-items: center;
 }
+
+.More {
+	display: flex; 
+	align-items: center;
+	column-gap: 5px;
+	position: relative;
+}
+
+.More::after {
+	content: "⌄";
+	margin-top: -8%;
+}
+
+
+.DropDownItems {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	border: 1px solid green;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	padding: 2px 8px 2px; 
+}
