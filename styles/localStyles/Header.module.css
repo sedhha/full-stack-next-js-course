@@ -39,7 +39,7 @@
 }
 
 
-.DropDownItems {
+.More:hover > .DropDownItems {
 	display: flex;
 	flex-direction: column;
 	row-gap: 10px;
@@ -48,4 +48,7 @@
 	top: 50px;
 	right: 0px;
 	padding: 2px 8px 2px; 
+}
+.DropDownItems {
+	display: none;
 }
