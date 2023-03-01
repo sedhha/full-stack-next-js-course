@@ -1,4 +1,5 @@
 import classes from '@/styles/localStyles/Header.module.css';
+import Radio from '@/components/RadioButton';
 
 export default function Home() {
 	return (
@@ -26,6 +27,7 @@ export default function Home() {
 						<h3>Tech Stack</h3>
 					</div>
 				</div>
+				<Radio />
 			</div>
 		</header>
 	);
