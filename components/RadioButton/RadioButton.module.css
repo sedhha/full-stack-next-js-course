@@ -1,17 +1,29 @@
 .OuterEnclosure {
     width: 120px;
     aspect-ratio: 3; /* width: height*/
-    background-color: antiquewhite;
+    background-color: rgba(255,255,0,.4);
     border-radius: 25px;
     position: relative;
 }
 
 .ToggleButton {
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 18%;
     height: 25px;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-color: blueviolet;
+    background-color: #faff00;
+    box-shadow: 0 3px 8px -2px #000;
+    left: 0;
+    cursor: pointer;
+}
+
+.ToggleButtonLeft {
+    translate: 80% 0;
+    transition: ease-in 0.3s  all;
+}
+
+.ToggleButtonRight {
+    translate: 300% 0;
+ transition: ease-in 0.3s all;
 }
